@@ -31,6 +31,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # here ^ symbol denotes it has to download 6.x.x latest x.x avaoilable version.
+  # if major version changes also it will still download 6.x.x itself
+  # to avoid build errors if major version get changed it may affect build
+  audioplayers: ^6.2.0
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
